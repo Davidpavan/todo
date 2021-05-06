@@ -1,7 +1,7 @@
 [Unit]
 Description = Todo Service
 [Service]
-Environment=REDIS_HOST=redis.pavanzs.online
+Environment=REDIS_HOST=REDIS_DNSNAME
 ExecStart=/bin/node /root/todo/server.js
 SyslogIdentifier=todo
 
