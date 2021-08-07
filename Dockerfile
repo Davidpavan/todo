@@ -1,4 +1,4 @@
-FROM    node
+FROM    node:stetch-slim
 RUN     mkdir /app
 WORKDIR /app
 COPY    . .
