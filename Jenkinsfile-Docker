@@ -3,5 +3,5 @@
 docker(
   COMPONENT         : 'todo',
   PROJECT_NAME      : "Todo",
-  SLAVE_LABEL       : "DOCKER",
+  SLAVE_LABEL       : "DOCKER"
 )
